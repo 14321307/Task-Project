@@ -1,0 +1,47 @@
+.add_btn{
+    text-align: left;
+   display: inline-block;
+   margin-right: -40px;
+   
+}
+
+
+
+
+.container {
+    padding: 2rem 0rem;
+  }
+  
+  h4 {
+    margin: 2rem 0rem 1rem 0rem;
+  }
+
+.left_view h3{
+    font-size: 21px;
+}
+
+.left_view p{
+    font-weight: 600;
+}
+
+.left_view span{
+    font-weight: 400;
+}
+
+.right_view p{
+    font-weight: 600;
+}
+
+
+.right_view span{
+    font-weight: 400;
+}
+
+
+.fa-arrow-left{
+color:white;
+background-color: black;
+text-decoration: none;
+padding: 10px 30px;
+border-radius: 100px;
+  }
