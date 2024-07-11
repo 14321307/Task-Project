@@ -31,7 +31,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(router);
 
 app.get("/",(req,res)=>{
-    res.send("server start")
+    res.send("this if first attempt start")
 });
 
 app.use(express.static('public'));
