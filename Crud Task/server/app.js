@@ -30,9 +30,9 @@ app.use(bodyParser.urlencoded({extended:false}));
 
 app.use(router);
 
-// app.get("/",(req,res)=>{
-//     res.send("server start")
-// });
+app.get("/",(req,res)=>{
+    res.send("server start")
+});
 
 app.use(express.static('public'));
 app.listen(port,()=>{
