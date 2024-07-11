@@ -26,13 +26,13 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({extended:false}));
-
+// app.use(bodyParser.json())
 
 app.use(router);
 
-app.get("/",(req,res)=>{
-    res.send("server start")
-});
+// app.get("/",(req,res)=>{
+//     res.send("server start")
+// });
 
 app.use(express.static('public'));
 app.listen(port,()=>{
